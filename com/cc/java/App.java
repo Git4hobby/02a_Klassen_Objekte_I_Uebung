@@ -20,7 +20,7 @@ public class App {
         
         Cat cat2 = new Cat();
         output("Blick von ausen: " + cat2);
-        
+        cat2.getInstanceVariable();
     }
     public static void output(String outputStr){
         System.out.println(outputStr);
