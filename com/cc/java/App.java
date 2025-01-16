@@ -17,7 +17,7 @@ public class App {
         output("---------------");
         
         Cat cat2 = new Cat();
-        System.out.println(cat2);
+        output("Blick von ausen: " + cat2);
         
     }
     public static void output(String outputStr){
