@@ -1,9 +1,7 @@
 package com.cc.java;
-
 public class App {
     
     public static void main(String[] args) {
-
         /*
          * Instanzierung --> 
          * Erzeugen eines/mehrer Objekte durch Aufrufen eines Konstruktors
@@ -13,18 +11,16 @@ public class App {
          * 
          */
     
-         Cat cat = new Cat();
-        System.out.println(cat);
-
-        System.out.println("---------------");
-
+        Cat cat = new Cat();
+        output("Blick von aussen: " + cat); // IMPLIZITE Typumwandlung Cat --> String
+        
+        output("---------------");
+        
         Cat cat2 = new Cat();
         System.out.println(cat2);
-
         
     }
-
-
-
+    public static void output(String outputStr){
+        System.out.println(outputStr);
+    }
 }
-
